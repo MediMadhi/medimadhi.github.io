@@ -57,13 +57,14 @@ body {
 .links a {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     color: var(--text-color);
     text-decoration: none;
     font-size: 1rem;
-    padding: 10px 20px;
     border: 1px solid var(--accent-color);
-    border-radius: 50px;
+    border-radius: 50%;
     transition: all 0.3s ease;
 }
 
@@ -76,11 +77,11 @@ body {
     font-size: 1.2rem;
 }
 
-.product-section {
+.project-section {
     margin-top: 30px;
 }
 
-.product-section h2 {
+.project-section h2 {
     font-family: var(--header-font);
     font-size: 1.5rem;
     font-weight: 700;
@@ -88,24 +89,23 @@ body {
     color: var(--text-color);
 }
 
-.product-link {
-    display: inline-block;
+.project-section a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: 1.1rem;
-    padding: 10px 20px;
-    border: 1px solid var(--accent-color);
-    border-radius: 50px;
-    transition: all 0.3s ease;
 }
 
-.product-link:hover {
-    background-color: var(--accent-color);
-    color: #fff;
+.project-section a:hover {
+    text-decoration: underline;
+}
+
+.project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .development-status {
-    margin-top: 10px;
     font-size: 0.9rem;
     color: #777;
 }
