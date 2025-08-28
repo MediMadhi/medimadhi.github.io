@@ -43,7 +43,7 @@ body {
 
 .name {
     font-family: var(--header-font);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 0 0 10px 0;
 }
