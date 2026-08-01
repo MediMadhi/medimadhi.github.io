@@ -134,3 +134,9 @@ body {
     font-size: 0.9rem;
     color: var(--muted-color);
 }
+
+.development-status a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
