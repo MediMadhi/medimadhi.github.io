@@ -103,14 +103,20 @@ body {
 }
 
 .project-section {
-    margin-top: 30px;
+    box-sizing: border-box;
+    width: min(100%, 330px);
+    margin: 30px auto 0;
+    padding: 22px 24px;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    text-align: left;
 }
 
 .project-section h2 {
     font-family: var(--header-font);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    margin: 0 0 15px 0;
+    margin: 0 0 8px;
     color: var(--text-color);
 }
 
@@ -125,9 +131,14 @@ body {
 
 .project-item {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+}
+
+.project-group + .project-group {
+    margin-top: 22px;
 }
 
 .development-status {
