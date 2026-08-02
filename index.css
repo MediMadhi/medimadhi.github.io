@@ -104,7 +104,8 @@ body {
 
 .project-section {
     box-sizing: border-box;
-    width: min(100%, 330px);
+    width: fit-content;
+    max-width: min(100%, 330px);
     margin: 30px auto 0;
     padding: 22px 24px;
     text-align: left;
