@@ -107,8 +107,6 @@ body {
     width: min(100%, 330px);
     margin: 30px auto 0;
     padding: 22px 24px;
-    border: 1px solid var(--accent-color);
-    border-radius: 10px;
     text-align: left;
 }
 
