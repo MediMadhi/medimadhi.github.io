@@ -150,3 +150,17 @@ body {
     text-decoration: underline;
     text-underline-offset: 3px;
 }
+
+.analytics-note {
+    max-width: 330px;
+    margin: 22px auto 0;
+    color: var(--muted-color);
+    font-size: 0.72rem;
+    line-height: 1.65;
+    text-align: left;
+}
+
+.analytics-note a {
+    color: inherit;
+    text-underline-offset: 2px;
+}
