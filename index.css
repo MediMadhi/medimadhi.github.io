@@ -153,11 +153,28 @@ body {
 
 .analytics-note {
     max-width: 330px;
-    margin: 22px auto 0;
+    margin: 14px auto 0;
     color: var(--muted-color);
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     line-height: 1.65;
     text-align: left;
+}
+
+.analytics-note summary {
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.analytics-note summary::-webkit-details-marker {
+    display: none;
+}
+
+.analytics-note p {
+    margin: 10px 0 0;
 }
 
 .analytics-note a {
