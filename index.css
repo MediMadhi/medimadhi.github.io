@@ -38,7 +38,6 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--bg-color);
@@ -150,36 +149,4 @@ body {
     color: inherit;
     text-decoration: underline;
     text-underline-offset: 3px;
-}
-
-.analytics-note {
-    box-sizing: border-box;
-    width: min(90%, 330px);
-    margin: 14px auto 0;
-    color: var(--muted-color);
-    font-size: 0.68rem;
-    line-height: 1.65;
-    text-align: left;
-}
-
-.analytics-note summary {
-    width: fit-content;
-    margin: 0 auto;
-    cursor: pointer;
-    list-style: none;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-}
-
-.analytics-note summary::-webkit-details-marker {
-    display: none;
-}
-
-.analytics-note p {
-    margin: 10px 0 0;
-}
-
-.analytics-note a {
-    color: inherit;
-    text-underline-offset: 2px;
 }
